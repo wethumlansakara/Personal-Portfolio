@@ -947,7 +947,82 @@ body {
     }
 }
 
+@media (max-width: 992px) {
+    .home-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .home-content {
+        text-align: center;
+    }
+    
+    .home-socials {
+        justify-content: center;
+    }
+    
+    .home-actions {
+        justify-content: center;
+    }
+    
+    .about-content h3 {
+        font-size: 1.5rem;
+    }
+    
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 768px) {
+    .about-content {
+        padding: 1rem;
+    }
+    
+    .about-content h3 {
+        font-size: 1.3rem;
+    }
+    
+    .about-content p {
+        font-size: 0.95rem;
+    }
+    
+    .detail-card {
+        padding: 1rem;
+    }
+    
+    .detail-card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .education-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .education-item {
+        padding: 1rem;
+    }
+    
+    .education-item h4 {
+        font-size: 1rem;
+    }
+    
+    .exam-results-table {
+        font-size: 0.85rem;
+    }
+    
+    .exam-results-table th,
+    .exam-results-table td {
+        padding: 0.5rem;
+    }
+    
+    .toggle-btn {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+    
     .nav-menu {
         position: fixed;
         top: 70px;
@@ -1000,6 +1075,57 @@ body {
     
     .home-subtitle {
         font-size: 1.2rem;
+    }
+    
+    .about-content h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .about-content p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+    
+    .detail-card h3 {
+        font-size: 1.3rem;
+    }
+    
+    .education-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .education-item {
+        padding: 0.8rem;
+    }
+    
+    .education-item h4 {
+        font-size: 0.95rem;
+        margin-bottom: 0.4rem;
+    }
+    
+    .detail-meta {
+        font-size: 0.8rem;
+    }
+    
+    .exam-results-table {
+        font-size: 0.75rem;
+    }
+    
+    .exam-results-table th,
+    .exam-results-table td {
+        padding: 0.35rem;
+    }
+    
+    .toggle-btn {
+        font-size: 0.85rem;
+        padding: 0.3rem 0.6rem;
+        margin-top: 0.3rem;
+    }
+    
+    .toggle-content {
+        margin-top: 0.5rem;
     }
     
     .filter-buttons {
